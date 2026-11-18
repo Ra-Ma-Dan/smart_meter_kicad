@@ -1,0 +1,244 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d5252b85-3f85-4685-b2d2-3494c5c3c75e")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 19.05 102.87)
+		(size 72.39 77.47)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "568a12d8-6a2b-4eb2-bea0-dba6fb42982c")
+		(property "Sheetname" "Relay_PFC"
+			(at 19.05 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay_PFC.kicad_sch"
+			(at 19.05 180.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "energy_meter"
+				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 22.86)
+		(size 63.5 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5a9fe3ed-5f6e-4275-b212-bf52dbee2ba6")
+		(property "Sheetname" "PowerSupply"
+			(at 20.32 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply.kicad_sch"
+			(at 20.32 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "energy_meter"
+				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 22.86)
+		(size 55.88 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7871b6b7-9795-4496-a70b-0413b989ef72")
+		(property "Sheetname" "MCU_USB"
+			(at 93.98 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_USB.kicad_sch"
+			(at 93.98 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "energy_meter"
+				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 104.14)
+		(size 74.93 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "797e1544-5ba4-4adc-9f78-3a11cee1dc46")
+		(property "Sheetname" "HighVoltage"
+			(at 96.52 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HighVoltage.kicad_sch"
+			(at 96.52 180.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "energy_meter"
+				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 24.13)
+		(size 63.5 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c5b376cc-72a3-43e4-b295-6c840c052648")
+		(property "Sheetname" "EnergyMetering"
+			(at 161.29 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EnergyMetering.kicad_sch"
+			(at 161.29 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "energy_meter"
+				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
