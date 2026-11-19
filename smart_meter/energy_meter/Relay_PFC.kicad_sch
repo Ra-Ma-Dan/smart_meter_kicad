@@ -533,9 +533,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:Relay_SPST-NO"
+		(symbol "RTD14005:RTD14005"
 			(pin_names
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -543,40 +543,28 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "K"
-				(at 11.43 3.81 0)
+				(at -7.6348 8.1438 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "Relay_SPST-NO"
-				(at 11.43 1.27 0)
+			(property "Value" "RTD14005"
+				(at -7.6345 -10.1793 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 11.43 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "~"
+			(property "Footprint" "RTD14005:RELAY_RTD14005"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -585,9 +573,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Description" "Relay SPST, normally open, EN50005"
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RTD14005_TE_Connectivity.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -596,9 +585,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_keywords" "1P1T 1-Form-A single pole throw NO"
+			(property "Description" "Power Relay, SPDT,16A,5mm Pinning,5VDC Coil,Thru-Hole, RTD Series | TE Connectivity RTD14005"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -607,9 +597,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_fp_filters" "Relay?SPST*"
+			(property "Comment" "5-1393238-9"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -618,26 +609,109 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "Relay_SPST-NO_0_0"
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RTD14005_TE_Connectivity.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "TE Connectivity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "RTD14005"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1014"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/RTD14005/TE+Connectivity+Potter+%2526+Brumfield+Relays/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommended"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "RTD14005_0_0"
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+						(xy -7.62 5.08) (xy -5.08 5.08)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Relay_SPST-NO_0_1"
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
+					(start -7.62 -7.62)
+					(end 5.08 7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -646,9 +720,82 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start -8.255 1.905)
-					(end -1.905 -1.905)
+				(arc
+					(start -5.08 0.762)
+					(mid -3.556 -1.2604)
+					(end -5.08 -3.302)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 3.302)
+					(mid -3.5407 1.2593)
+					(end -5.08 -0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 3.302)
+					(mid -4.5085 2.54)
+					(end -5.08 1.778)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 0.762)
+					(mid -4.5085 0)
+					(end -5.08 -0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -1.778)
+					(mid -4.5085 -2.54)
+					(end -5.08 -3.302)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 5.08)
+					(mid -3.5512 3.4405)
+					(end -5.08 1.778)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -1.778)
+					(mid -3.5512 -3.4175)
+					(end -5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -659,91 +806,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -1.905) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -5.08 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.81 0)
+						(xy 0 5.08) (xy 0 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -755,10 +818,10 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 3.175 3.81)
+						(xy 0 2.54) (xy -0.762 3.302)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -767,86 +830,784 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 5.08 -5.08)
+						(xy 0 2.54) (xy 0.762 3.302)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Relay_SPST-NO_1_1"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -0.762 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0.762 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 5.08 -7.62 90)
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "13"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "13"
+					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 270)
+					(at 7.62 5.08 180)
 					(length 2.54)
-					(name "14"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "14"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 270)
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "A1"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "A1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 90)
+					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "A2"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "A2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RTD14005_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K"
+				(at -7.6348 8.1438 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RTD14005"
+				(at -7.6345 -10.1793 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "RTD14005:RELAY_RTD14005"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RTD14005_TE_Connectivity.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "Power Relay, SPDT,16A,5mm Pinning,5VDC Coil,Thru-Hole, RTD Series | TE Connectivity RTD14005"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Comment" "5-1393238-9"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RTD14005_TE_Connectivity.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "TE Connectivity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "RTD14005"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1014"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/RTD14005/TE+Connectivity+Potter+%2526+Brumfield+Relays/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommended"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "RTD14005_1_0_0"
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -5.08 0.762)
+					(mid -3.556 -1.2604)
+					(end -5.08 -3.302)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 3.302)
+					(mid -3.5407 1.2593)
+					(end -5.08 -0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 3.302)
+					(mid -4.5085 2.54)
+					(end -5.08 1.778)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 0.762)
+					(mid -4.5085 0)
+					(end -5.08 -0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -1.778)
+					(mid -4.5085 -2.54)
+					(end -5.08 -3.302)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 5.08)
+					(mid -3.5512 3.4405)
+					(end -5.08 1.778)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -1.778)
+					(mid -3.5512 -3.4175)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -0.762 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0.762 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1584,6 +2345,22 @@
 		(color 0 0 0 0)
 		(uuid "fbf51524-ec10-49a5-b321-5df4c75141ae")
 	)
+	(no_connect
+		(at 199.39 134.62)
+		(uuid "1eeddd3b-cfc1-43eb-8bf1-abe327b87558")
+	)
+	(no_connect
+		(at 93.98 140.97)
+		(uuid "440b3d10-2368-46fb-8ec4-b4a2ef461762")
+	)
+	(no_connect
+		(at 200.66 50.8)
+		(uuid "a1971065-8172-4b49-bc1d-17e60694a945")
+	)
+	(no_connect
+		(at 107.95 50.8)
+		(uuid "b8541207-62cd-4c0a-b50f-fe669bc272bf")
+	)
 	(wire
 		(pts
 			(xy 76.2 57.15) (xy 76.2 62.23)
@@ -1593,6 +2370,36 @@
 			(type default)
 		)
 		(uuid "014d282c-8f36-42ee-8927-8156ab402079")
+	)
+	(wire
+		(pts
+			(xy 114.3 35.56) (xy 114.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b71dc3-06f1-4015-aa73-32b80e8b9782")
+	)
+	(wire
+		(pts
+			(xy 86.36 50.8) (xy 86.36 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04bda380-6623-426a-8426-c49e53eb8add")
+	)
+	(wire
+		(pts
+			(xy 200.66 45.72) (xy 210.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07043588-2abf-40de-9d86-9f1369fab599")
 	)
 	(wire
 		(pts
@@ -1626,6 +2433,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 50.8) (xy 179.07 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096d3bac-0442-4a4d-a64e-8b2525b77811")
+	)
+	(wire
+		(pts
 			(xy 156.21 81.28) (xy 168.91 81.28)
 		)
 		(stroke
@@ -1633,6 +2450,16 @@
 			(type default)
 		)
 		(uuid "09c542f0-f942-47b4-8a3c-9d8568357a2a")
+	)
+	(wire
+		(pts
+			(xy 114.3 45.72) (xy 107.95 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b191e9f-3ac1-4e04-b2a3-5abbcd380f4e")
 	)
 	(wire
 		(pts
@@ -1646,6 +2473,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 40.64) (xy 179.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fabe719-6c50-44d4-b917-e12f4ddbf9cd")
+	)
+	(wire
+		(pts
 			(xy 176.53 116.84) (xy 176.53 120.65)
 		)
 		(stroke
@@ -1653,6 +2490,16 @@
 			(type default)
 		)
 		(uuid "10ca1409-19ae-4384-b7d4-8b8bcffbf190")
+	)
+	(wire
+		(pts
+			(xy 204.47 139.7) (xy 199.39 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f9a5f0-8f34-4d2f-b3fe-d765a8b9266a")
 	)
 	(wire
 		(pts
@@ -1693,16 +2540,6 @@
 			(type default)
 		)
 		(uuid "221bf5c5-e70c-48d6-8db7-a8a9279f8e6f")
-	)
-	(wire
-		(pts
-			(xy 85.09 143.51) (xy 85.09 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "223fbb3c-568d-479d-b4db-a290ae03c99c")
 	)
 	(wire
 		(pts
@@ -1756,16 +2593,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 124.46) (xy 191.77 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a50b198-727b-4811-8bc6-caa08e879986")
-	)
-	(wire
-		(pts
 			(xy 54.61 123.19) (xy 62.23 123.19)
 		)
 		(stroke
@@ -1806,7 +2633,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 151.13) (xy 176.53 147.32)
+			(xy 176.53 144.78) (xy 176.53 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1826,7 +2653,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 123.19) (xy 74.93 128.27)
+			(xy 74.93 140.97) (xy 74.93 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b44ff32-b58b-4148-bac9-2c2b515ac3b7")
+	)
+	(wire
+		(pts
+			(xy 74.93 123.19) (xy 74.93 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1846,13 +2683,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 123.19) (xy 87.63 123.19)
+			(xy 90.17 40.64) (xy 86.36 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e3bc697-a0e6-4b48-8998-9489aa3ca533")
+		(uuid "3e8d0c3f-3bfb-4725-9b93-201163700b14")
 	)
 	(wire
 		(pts
@@ -1863,26 +2700,6 @@
 			(type default)
 		)
 		(uuid "3ecb7fe3-0ae2-46aa-afe4-054c961cd1be")
-	)
-	(wire
-		(pts
-			(xy 74.93 147.32) (xy 74.93 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f2104b3-5e7e-4355-a3de-a6c74b1f74ab")
-	)
-	(wire
-		(pts
-			(xy 179.07 57.15) (xy 179.07 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4068be80-8105-4fa7-885e-cc6745d55431")
 	)
 	(wire
 		(pts
@@ -1916,13 +2733,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 31.75) (xy 196.85 31.75)
+			(xy 179.07 33.02) (xy 179.07 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a08c232-7163-4bae-87dd-0d965d7de88c")
+		(uuid "472b6cfa-a2be-42bd-8ad6-6c93d04ce986")
 	)
 	(wire
 		(pts
@@ -1943,26 +2760,6 @@
 			(type default)
 		)
 		(uuid "4c0b5cf9-8089-4d15-bb5f-46f660bdd957")
-	)
-	(wire
-		(pts
-			(xy 189.23 53.34) (xy 189.23 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d217528-31b8-465f-8ef1-91ebda5cfbc1")
-	)
-	(wire
-		(pts
-			(xy 191.77 38.1) (xy 191.77 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5490e679-d69b-4f36-85b2-0879b07dacff")
 	)
 	(wire
 		(pts
@@ -2076,16 +2873,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 53.34) (xy 96.52 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69b93aba-a1d0-44f7-acb5-6da0826c809e")
-	)
-	(wire
-		(pts
 			(xy 52.07 33.02) (xy 58.42 33.02)
 		)
 		(stroke
@@ -2093,6 +2880,36 @@
 			(type default)
 		)
 		(uuid "6a487d4e-3a0b-4d47-b91d-49066be393ec")
+	)
+	(wire
+		(pts
+			(xy 90.17 50.8) (xy 86.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d4fbcbf-93a1-412d-871b-340e504ddde2")
+	)
+	(wire
+		(pts
+			(xy 181.61 144.78) (xy 176.53 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70224a8a-3f2a-4c74-bc84-90b5c53cb354")
+	)
+	(wire
+		(pts
+			(xy 204.47 152.4) (xy 204.47 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719c05a7-17e3-41a8-8c6d-b65b37485f9c")
 	)
 	(wire
 		(pts
@@ -2133,16 +2950,6 @@
 			(type default)
 		)
 		(uuid "74c1ec02-6e8a-4e0f-b07f-aff90c3691c5")
-	)
-	(wire
-		(pts
-			(xy 99.06 33.02) (xy 99.06 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77b2c2ab-4a00-4878-841a-63cc17e3208c")
 	)
 	(wire
 		(pts
@@ -2246,6 +3053,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 40.64) (xy 210.82 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e252acc-7fb6-4297-8811-6c435bf77d4e")
+	)
+	(wire
+		(pts
 			(xy 176.53 120.65) (xy 176.53 127)
 		)
 		(stroke
@@ -2286,27 +3103,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 33.02) (xy 99.06 33.02)
+			(xy 114.3 57.15) (xy 114.3 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93e84d83-32b0-4a35-b774-b2d50fe8ff92")
+		(uuid "97b02b33-d0a9-4928-aa1c-93493b72656d")
 	)
 	(wire
 		(pts
-			(xy 96.52 72.39) (xy 97.79 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a150c36-cf35-4a9e-8ed7-1756bace732f")
-	)
-	(wire
-		(pts
-			(xy 85.09 154.94) (xy 91.44 154.94)
+			(xy 104.14 135.89) (xy 104.14 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2323,16 +3130,6 @@
 			(type default)
 		)
 		(uuid "9c8258ed-e4ee-4e60-854b-38c778570cbb")
-	)
-	(wire
-		(pts
-			(xy 179.07 33.02) (xy 179.07 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a14f8ad7-d80d-426a-8ebb-40fcb1becd1b")
 	)
 	(wire
 		(pts
@@ -2356,7 +3153,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 33.02) (xy 86.36 38.1)
+			(xy 86.36 33.02) (xy 86.36 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2366,13 +3163,23 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 62.23) (xy 195.58 62.23)
+			(xy 76.2 140.97) (xy 74.93 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab497acb-da03-4555-94ea-4a59b34c870d")
+		(uuid "aee7eb4f-cbaa-4a12-b1a4-dd3cfda44f58")
+	)
+	(wire
+		(pts
+			(xy 76.2 130.81) (xy 74.93 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1bb7aa9-297a-4787-a0ef-cde2d2e5aa34")
 	)
 	(wire
 		(pts
@@ -2386,23 +3193,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 132.08) (xy 189.23 124.46)
+			(xy 114.3 40.64) (xy 107.95 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b40a588f-e018-4815-9326-da78adec51f4")
-	)
-	(wire
-		(pts
-			(xy 87.63 123.19) (xy 87.63 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9b87916-4d26-4f70-9489-7c482ee56cf7")
+		(uuid "b81298b0-ab2f-4c88-81cc-1ead12a8fb71")
 	)
 	(wire
 		(pts
@@ -2413,6 +3210,26 @@
 			(type default)
 		)
 		(uuid "ba13f180-db76-43be-827c-a4a28de57ffb")
+	)
+	(wire
+		(pts
+			(xy 179.07 50.8) (xy 179.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb98e1b8-58f3-4060-a377-478e8068118b")
+	)
+	(wire
+		(pts
+			(xy 104.14 124.46) (xy 104.14 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc1b9cd5-767a-48a3-b7ab-d010f248a02c")
 	)
 	(wire
 		(pts
@@ -2476,6 +3293,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 45.72) (xy 210.82 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caf47ec0-66cb-4e94-9b6e-e11a67704fd6")
+	)
+	(wire
+		(pts
 			(xy 73.66 57.15) (xy 76.2 57.15)
 		)
 		(stroke
@@ -2483,6 +3310,26 @@
 			(type default)
 		)
 		(uuid "cd723316-2a8d-4ce0-8fc7-98ddcb984979")
+	)
+	(wire
+		(pts
+			(xy 181.61 134.62) (xy 176.53 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c98d57-b5a2-448e-a82a-887181173e48")
+	)
+	(wire
+		(pts
+			(xy 104.14 130.81) (xy 93.98 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e83ce5-2946-4a83-8ba7-5dc7b57bf780")
 	)
 	(wire
 		(pts
@@ -2506,6 +3353,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 132.08) (xy 204.47 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da929d29-b4f4-42a8-a1f0-48d7439df1e8")
+	)
+	(wire
+		(pts
 			(xy 44.45 67.31) (xy 53.34 67.31)
 		)
 		(stroke
@@ -2516,7 +3373,17 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 127) (xy 176.53 132.08)
+			(xy 93.98 135.89) (xy 104.14 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb9bd06-0fcb-4eba-8562-be0d82b19dd1")
+	)
+	(wire
+		(pts
+			(xy 176.53 127) (xy 176.53 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2616,13 +3483,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 57.15) (xy 86.36 53.34)
+			(xy 204.47 144.78) (xy 199.39 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f50d95b6-7a84-4881-b8fe-16dfb885b747")
+		(uuid "f4372313-c2c6-4a34-9201-dd93828ec071")
 	)
 	(wire
 		(pts
@@ -2646,27 +3513,41 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 154.94) (xy 191.77 154.94)
+			(xy 200.66 40.64) (xy 210.82 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe1db525-bb1f-4cf7-9ff5-73cdd6eae80c")
+		(uuid "fde2fdf7-46c8-4952-b4fe-5e1da956bc62")
 	)
-	(wire
-		(pts
-			(xy 186.69 147.32) (xy 186.69 154.94)
+	(global_label "RELAY_1_COMM"
+		(shape input)
+		(at 114.3 57.15 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "20a3bd45-c873-499b-8321-e3a66bb40989")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 74.4075 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
-		(uuid "fec161a8-7ce2-4ee7-a87f-03aa0d5406ea")
 	)
 	(global_label "RELAY_3_NO"
 		(shape input)
-		(at 90.17 123.19 0)
+		(at 104.14 124.46 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2676,7 +3557,7 @@
 		)
 		(uuid "258619b7-7e45-4de3-9df2-a807dcb9ffc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.5852 123.19 0)
+			(at 104.14 110.0448 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2690,17 +3571,17 @@
 	)
 	(global_label "RELAY_3_COMM"
 		(shape input)
-		(at 91.44 154.94 0)
+		(at 104.14 142.24 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3083c475-9ba0-4cd4-878c-2893e05c9168")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.6975 154.94 0)
+			(at 104.14 159.4975 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2708,61 +3589,37 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RELAY_4_COMM"
-		(shape input)
-		(at 191.77 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4b0856d2-e1be-4704-990c-7f36aeed0f43")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.0275 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RELAY_1_COMM"
-		(shape input)
-		(at 97.79 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "58ec549b-b74d-4b3a-97e7-2d9240b4ff4e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.0475 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "RELAY_4_NO"
 		(shape input)
-		(at 191.77 124.46 0)
+		(at 204.47 152.4 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30853922-1415-4aa3-80ca-ed6e0e1d2060")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.47 166.8152 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RELAY_2_NO"
+		(shape input)
+		(at 210.82 33.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2770,9 +3627,9 @@
 			)
 			(justify left)
 		)
-		(uuid "62c563d9-ad5f-4bf8-9bb6-121ad4e89205")
+		(uuid "3a1e4d45-b0c1-469a-8745-47cab30eefe8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.1852 124.46 0)
+			(at 210.82 18.6048 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2797,6 +3654,30 @@
 		(uuid "66e6afd5-8020-43ba-867e-ffe9d258bf5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.9643 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RELAY_2_COMM"
+		(shape input)
+		(at 210.82 50.8 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67d24704-03cb-493c-8fc6-bbb8383d0242")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.82 68.0575 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2856,9 +3737,9 @@
 			)
 		)
 	)
-	(global_label "RELAY_1_NO"
+	(global_label "RELAY_4_COMM"
 		(shape input)
-		(at 104.14 33.02 0)
+		(at 204.47 132.08 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2866,33 +3747,9 @@
 			)
 			(justify left)
 		)
-		(uuid "6ee6ee41-4202-4ab7-812f-d6f0c8a831b6")
+		(uuid "7a795561-1416-4a91-8484-109678445a53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.5552 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RELAY_2_COMM"
-		(shape input)
-		(at 195.58 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9533d594-e0a5-40ee-b5d2-d07b8f687414")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.8375 62.23 0)
+			(at 204.47 114.8225 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2976,6 +3833,30 @@
 			)
 		)
 	)
+	(global_label "RELAY_1_NO"
+		(shape input)
+		(at 114.3 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8eafa60-f4ab-4692-9bc4-fec5dfaffc6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 21.1448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "+5V"
 		(shape input)
 		(at 173.99 120.65 180)
@@ -3021,30 +3902,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "RELAY_2_NO"
-		(shape input)
-		(at 196.85 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ff332de3-f6cb-413b-a43b-2affe40618be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.2652 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -3160,7 +4017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 171.45 69.215 0)
 			(hide yes)
 			(show_name no)
@@ -3533,7 +4390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 168.91 163.195 0)
 			(hide yes)
 			(show_name no)
@@ -4027,94 +4884,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:Relay_SPST-NO")
-		(at 184.15 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "328c06b0-ffaa-4478-9158-2949e91fe109")
-		(property "Reference" "K4"
-			(at 195.58 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Relay_SPST-NO"
-			(at 195.58 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron-G5Q-1A"
-			(at 195.58 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Relay SPST, normally open, EN50005"
-			(at 184.15 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "13"
-			(uuid "3b6d2662-0fc5-4c53-80cf-788208f62235")
-		)
-		(pin "14"
-			(uuid "bf948263-e04f-47b1-888e-684613aba30b")
-		)
-		(pin "A1"
-			(uuid "7e9a03e3-fe01-494f-80cc-382a7221744d")
-		)
-		(pin "A2"
-			(uuid "8d8493c5-efd2-4b6c-a831-a79a0d6cb700")
-		)
-		(instances
-			(project "energy_meter"
-				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e/568a12d8-6a2b-4eb2-bea0-dba6fb42982c"
-					(reference "K4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 149.86 67.31 90)
 		(unit 1)
@@ -4189,94 +4958,6 @@
 			(project "energy_meter"
 				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e/568a12d8-6a2b-4eb2-bea0-dba6fb42982c"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_SPST-NO")
-		(at 181.61 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "44941cf3-4851-474b-9f88-4f1c0b4a2e51")
-		(property "Reference" "K3"
-			(at 193.04 138.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Relay_SPST-NO"
-			(at 193.04 140.9699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron-G5Q-1A"
-			(at 193.04 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Relay SPST, normally open, EN50005"
-			(at 181.61 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "13"
-			(uuid "9f8e3d94-9a19-445e-bcc4-b2c0a23e1fe7")
-		)
-		(pin "14"
-			(uuid "4e9f4415-dfa6-4b0a-b51c-09a50e1a0eb1")
-		)
-		(pin "A1"
-			(uuid "3458ce7d-4795-4400-a57b-e83ca8732efd")
-		)
-		(pin "A2"
-			(uuid "672691a3-7cde-4162-86eb-47b9b24c222b")
-		)
-		(instances
-			(project "energy_meter"
-				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e/568a12d8-6a2b-4eb2-bea0-dba6fb42982c"
-					(reference "K3")
 					(unit 1)
 				)
 			)
@@ -5359,94 +6040,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:Relay_SPST-NO")
-		(at 80.01 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "95458e1b-7827-44f4-95fd-56cfd515ad80")
-		(property "Reference" "K1"
-			(at 91.44 134.6199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Relay_SPST-NO"
-			(at 91.44 137.1599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron-G5Q-1A"
-			(at 91.44 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Relay SPST, normally open, EN50005"
-			(at 80.01 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "13"
-			(uuid "0bbe1928-852d-4d00-ae55-5375f7f10b4a")
-		)
-		(pin "14"
-			(uuid "9662eeaf-7c4c-43d0-91b4-5894acfeed94")
-		)
-		(pin "A1"
-			(uuid "0362f085-fc0d-4356-b6e8-b0a1c7427cfe")
-		)
-		(pin "A2"
-			(uuid "b55bd154-346b-428c-9cdd-dd2dc98263d1")
-		)
-		(instances
-			(project "energy_meter"
-				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e/568a12d8-6a2b-4eb2-bea0-dba6fb42982c"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 166.37 177.8 0)
 		(unit 1)
@@ -5922,7 +6515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 78.74 69.215 0)
 			(hide yes)
 			(show_name no)
@@ -5993,94 +6586,6 @@
 			(project "energy_meter"
 				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e/568a12d8-6a2b-4eb2-bea0-dba6fb42982c"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_SPST-NO")
-		(at 91.44 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c178cf8c-e55a-4c1e-9583-0f8fa19999a7")
-		(property "Reference" "K2"
-			(at 102.87 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Relay_SPST-NO"
-			(at 102.87 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron-G5Q-1A"
-			(at 102.87 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Relay SPST, normally open, EN50005"
-			(at 91.44 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "13"
-			(uuid "f1e8416b-b24a-4f32-b68d-973fd988a200")
-		)
-		(pin "14"
-			(uuid "70984220-ed85-49f5-ab98-4d97e2f4d67d")
-		)
-		(pin "A1"
-			(uuid "e2a64829-90df-41f1-8593-9e37f4880be7")
-		)
-		(pin "A2"
-			(uuid "20b0db94-dee7-4d34-80d5-4c8ae49dfa2d")
-		)
-		(instances
-			(project "energy_meter"
-				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e/568a12d8-6a2b-4eb2-bea0-dba6fb42982c"
-					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -6169,6 +6674,192 @@
 		)
 	)
 	(symbol
+		(lib_name "RTD14005_1")
+		(lib_id "RTD14005:RTD14005")
+		(at 193.04 45.72 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7d5a009-f9a5-4adf-ae32-4d83faa8e8e0")
+		(property "Reference" "K8"
+			(at 191.77 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RTD14005"
+			(at 191.77 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_FP:RELAY_RTD14005"
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RTD14005_TE_Connectivity.pdf"
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Power Relay, SPDT,16A,5mm Pinning,5VDC Coil,Thru-Hole, RTD Series | TE Connectivity RTD14005"
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Comment" "5-1393238-9"
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RTD14005_TE_Connectivity.pdf"
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "RTD14005"
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1014"
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/RTD14005/TE+Connectivity+Potter+%2526+Brumfield+Relays/view-part/"
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommended"
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "e17a1ada-a8b9-4188-8b49-658e82746abe")
+		)
+		(pin "11"
+			(uuid "8e1b1bee-94a6-42ea-bec3-d3e47d94bd79")
+		)
+		(pin "12"
+			(uuid "318a924c-d633-4c5e-8445-772b10104d10")
+		)
+		(pin "14"
+			(uuid "4d5a9a67-d754-409d-9118-52bfd13aff2a")
+		)
+		(pin "A1"
+			(uuid "f783d209-aeec-47f7-98ae-a5c8d17a92d9")
+		)
+		(pin "2"
+			(uuid "b17db52a-8919-497f-8b68-ae03756843c9")
+		)
+		(pin "4"
+			(uuid "03a492bb-d299-4527-9aaa-5ff57c520e30")
+		)
+		(pin "A2"
+			(uuid "4a038137-6a54-4b06-8a84-136203b4cc48")
+		)
+		(instances
+			(project "energy_meter"
+				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e/568a12d8-6a2b-4eb2-bea0-dba6fb42982c"
+					(reference "K8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:MMBT3904")
 		(at 62.23 157.48 0)
 		(unit 1)
@@ -6202,7 +6893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 67.31 159.385 0)
 			(hide yes)
 			(show_name no)
@@ -6273,6 +6964,191 @@
 			(project "energy_meter"
 				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e/568a12d8-6a2b-4eb2-bea0-dba6fb42982c"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RTD14005:RTD14005")
+		(at 86.36 135.89 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce41c5c1-658d-452f-9f50-bca927e5afaf")
+		(property "Reference" "K5"
+			(at 85.09 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RTD14005"
+			(at 85.09 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_FP:RELAY_RTD14005"
+			(at 86.36 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RTD14005_TE_Connectivity.pdf"
+			(at 86.36 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Power Relay, SPDT,16A,5mm Pinning,5VDC Coil,Thru-Hole, RTD Series | TE Connectivity RTD14005"
+			(at 86.36 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Comment" "5-1393238-9"
+			(at 86.36 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RTD14005_TE_Connectivity.pdf"
+			(at 86.36 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 86.36 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "RTD14005"
+			(at 86.36 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1014"
+			(at 86.36 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/RTD14005/TE+Connectivity+Potter+%2526+Brumfield+Relays/view-part/"
+			(at 86.36 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommended"
+			(at 86.36 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "9daf9e87-7c75-4540-b17f-8b358339822b")
+		)
+		(pin "11"
+			(uuid "88b0db0f-3926-4cd2-9148-4bbf9f9643df")
+		)
+		(pin "12"
+			(uuid "92d4b9f2-fe4f-42c2-bd1b-e3cb379346d4")
+		)
+		(pin "14"
+			(uuid "c247cf20-ac06-4f41-8a9c-c87183485bc6")
+		)
+		(pin "A1"
+			(uuid "09e13501-34bf-402f-963b-efcb5df52088")
+		)
+		(pin "2"
+			(uuid "33799307-50e9-49a2-a49d-131a383ad32d")
+		)
+		(pin "4"
+			(uuid "90cac337-287d-4c98-a6b9-531d7e40c3b5")
+		)
+		(pin "A2"
+			(uuid "4f387ec9-689b-4175-9e0c-cc0845500baf")
+		)
+		(instances
+			(project "energy_meter"
+				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e/568a12d8-6a2b-4eb2-bea0-dba6fb42982c"
+					(reference "K5")
 					(unit 1)
 				)
 			)
@@ -6351,6 +7227,192 @@
 			(project "energy_meter"
 				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e/568a12d8-6a2b-4eb2-bea0-dba6fb42982c"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RTD14005_1")
+		(lib_id "RTD14005:RTD14005")
+		(at 191.77 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5fda379-3cb1-4e18-9bd2-51f915e99253")
+		(property "Reference" "K6"
+			(at 190.5 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RTD14005"
+			(at 190.5 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_FP:RELAY_RTD14005"
+			(at 191.77 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RTD14005_TE_Connectivity.pdf"
+			(at 191.77 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Power Relay, SPDT,16A,5mm Pinning,5VDC Coil,Thru-Hole, RTD Series | TE Connectivity RTD14005"
+			(at 191.77 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Comment" "5-1393238-9"
+			(at 191.77 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RTD14005_TE_Connectivity.pdf"
+			(at 191.77 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 191.77 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "RTD14005"
+			(at 191.77 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1014"
+			(at 191.77 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/RTD14005/TE+Connectivity+Potter+%2526+Brumfield+Relays/view-part/"
+			(at 191.77 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommended"
+			(at 191.77 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "8b99f495-b9f7-43f3-8796-7c044572aa36")
+		)
+		(pin "11"
+			(uuid "552c3c8a-9f01-40dd-904b-41053f0fc580")
+		)
+		(pin "12"
+			(uuid "c0e6b21d-02b2-42e5-82dd-1c4f02f411d4")
+		)
+		(pin "14"
+			(uuid "0e8cb62c-6d16-4778-bb18-020932e01d01")
+		)
+		(pin "A1"
+			(uuid "84232620-3294-4d1e-b842-18a2f134baff")
+		)
+		(pin "2"
+			(uuid "32c1ed39-4a88-49d2-9f39-7970e2c772f7")
+		)
+		(pin "4"
+			(uuid "f81bc09c-6217-42ec-a924-16028fbb2a46")
+		)
+		(pin "A2"
+			(uuid "98f04b88-010b-4be1-bc13-df049a3a36fd")
+		)
+		(instances
+			(project "energy_meter"
+				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e/568a12d8-6a2b-4eb2-bea0-dba6fb42982c"
+					(reference "K6")
 					(unit 1)
 				)
 			)
@@ -6515,6 +7577,192 @@
 			(project "energy_meter"
 				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e/568a12d8-6a2b-4eb2-bea0-dba6fb42982c"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RTD14005_1")
+		(lib_id "RTD14005:RTD14005")
+		(at 100.33 45.72 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f021cd88-645e-4ca6-ab1b-28a5ff8b64b2")
+		(property "Reference" "K7"
+			(at 99.06 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RTD14005"
+			(at 99.06 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_FP:RELAY_RTD14005"
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RTD14005_TE_Connectivity.pdf"
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Power Relay, SPDT,16A,5mm Pinning,5VDC Coil,Thru-Hole, RTD Series | TE Connectivity RTD14005"
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Comment" "5-1393238-9"
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RTD14005_TE_Connectivity.pdf"
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "RTD14005"
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1014"
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/RTD14005/TE+Connectivity+Potter+%2526+Brumfield+Relays/view-part/"
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommended"
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "dcaed3e1-b20a-44b0-9702-a658028e07cf")
+		)
+		(pin "11"
+			(uuid "88ad04eb-0e5d-4681-94b8-7f9e541ea2d2")
+		)
+		(pin "12"
+			(uuid "f8a8a8dd-e93c-4161-8f64-5a0a94c759cf")
+		)
+		(pin "14"
+			(uuid "14c94d0b-9b26-4b9b-8dc7-5b922ff3b175")
+		)
+		(pin "A1"
+			(uuid "6cf48907-a3ad-489c-8fac-5316cc0049d6")
+		)
+		(pin "2"
+			(uuid "daf75560-fec7-43e8-8a3e-7933a7e43748")
+		)
+		(pin "4"
+			(uuid "b541ea55-10cf-473e-bb28-9a190ce87486")
+		)
+		(pin "A2"
+			(uuid "7cfbcd7e-8e1e-46f2-9763-b192b02acb51")
+		)
+		(instances
+			(project "energy_meter"
+				(path "/d5252b85-3f85-4685-b2d2-3494c5c3c75e/568a12d8-6a2b-4eb2-bea0-dba6fb42982c"
+					(reference "K7")
 					(unit 1)
 				)
 			)

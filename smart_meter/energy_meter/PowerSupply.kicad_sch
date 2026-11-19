@@ -3422,7 +3422,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Littelfuse_395Series"
 			(at 111.76 56.388 90)
 			(hide yes)
 			(show_name no)
